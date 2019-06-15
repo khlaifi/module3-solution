@@ -1,0 +1,45 @@
+/*general settings*/
+* 
+{
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1 
+{
+    font-size: 1.75em; /*reduce the size*/
+    margin-bottom:  40px;
+    font-weight: bolder;
+    /* text-align: center; */ /*  --> will be centred by bootstrap's class "text-center"*/
+}
+
+section 
+{
+    background-color: gray;
+    border: 1px solid black;
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+
+/* section paragraph's title will be bigger */
+section h3 
+{
+    font-size: 1.25em; 
+    font-weight: bolder;
+    /* text-align: center; */ /*  --> will be centred by bootstrap*/
+}
+
+/* section paragraph's back link */
+section h5 
+{
+    font-size: 1.75em; 
+    font-weight: bolder;
+    color: blue;
+}
+
+/* section's paragraph padding */
+section p 
+{
+    padding: 0 7px 7px 7px;
+}
+
